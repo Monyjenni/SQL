@@ -20,3 +20,10 @@ cursorObject = dataBase.cursor()
 # creating database
 
 cursorObject.execute("CREATE DATABASE hdsd")
+studentRecord = """ Create table student
+                    name
+                """
+cursorObject.excute(studentRecord)
+
+dataBase.close()
+                
