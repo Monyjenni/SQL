@@ -11,6 +11,8 @@ dataBase = mysql.connector.connect(
   user ="root",
 
   passwd =""
+  
+  database= "hdsd"
 )
  
 # preparing a cursor object
